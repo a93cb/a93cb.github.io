@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+  <game>
+    <id>tag</id>
+    <title>Tag</title>
+    <path>/games/tag.html</path>
+    <description>Short description of the game.</description>
+  </game>
+  <game>
+    <id>crossy-road</id>
+    <title>Crossy Road</title>
+    <path>/games/crossy-road.html</path>
+    <description>Short description of the game.</description>
+  </game>
+  <game>
+    <id>rocket-goal</id>
+    <title>Rocket Goal</title>
+    <path>/games/rocket-goal.html</path>
+    <description>Short description of the game.</description>
+</library>
