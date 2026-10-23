@@ -1,20 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" ?>
 <library>
   <game>
     <id>tag</id>
     <title>Tag</title>
     <path>/games/tag.html</path>
-    <description>Short description of the game.</description>
   </game>
   <game>
-    <id>crossy-road</id>
-    <title>Crossy Road</title>
-    <path>/games/crossy-road.html</path>
-    <description>Short description of the game.</description>
+    <id>crossy-road-winter</id>
+    <title>Crossy Road Winter</title>
+    <path>/games/crossy-road-winter.html</path>
   </game>
   <game>
     <id>rocket-goal</id>
     <title>Rocket Goal</title>
     <path>/games/rocket-goal.html</path>
-    <description>Short description of the game.</description>
+    <description>Rocket League</description>
+  </game>
+  <game>
+    <id>smash-karts</id>
+    <title>Smash Karts</title>
+    <path>/games/smash-karts.html</path>
+  </game>
+  <game>
+    <id>snow-rider-3d</id>
+    <title>Snow Rider 3D</title>
+    <path>/games/snow-rider-3d.html</path>
+  </game>
+  <game>
+    <id>slope</id>
+    <title>Slope</title>
+    <path>/games/slope.html</path>
+  </game>
 </library>

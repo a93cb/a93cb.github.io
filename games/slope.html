@@ -1,0 +1,119 @@
+<html lang="en"><head><title>Play Slope Game Game Online !</title><meta charset="utf-8"><meta name="robots" content="noindex, nofollow, noodp, noydir"><meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no, minimal-ui"><meta http-equiv="X-UA-Compatible" content="requiresActiveX=true,IE=Edge,chrome=1"><meta http-equiv="Content-Language" content="en-US"><style>* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+		}
+
+		html,
+		body {
+			background-color: rgba(0, 0, 0, 0.4);
+		}</style></head><body id="run_IFRAME_HTML"><style>.before-playing {
+				position: fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-color: #16181e;
+			}
+
+			.blur-background {
+				background-image: url('/data/image/game/slope-game.png');
+				background-repeat: no-repeat;
+				position: absolute;
+				background-size: cover;
+				background-position: 50%;
+				filter: blur(12px);
+				opacity: .7;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				width: 100%;
+				height: 100%;
+				z-index: -1;
+			}
+
+			.preload-before-playing {
+				padding: 20px 30px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-wrap: wrap;
+				flex-direction: column;
+				width: 100%;
+				height: 100%;
+				box-sizing: border-box;
+				max-width: 800px;
+				margin: 0 auto;
+			}
+
+			.image-thumbnail-playing img {
+				box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+				
+				border-radius: 16px;
+			}
+
+			.title-game-playing span {
+				min-width: 160px;
+				border-radius: 40px;
+				text-transform: uppercase;
+				padding: 20px 40px;
+				margin-top: 20px;
+				cursor: pointer;
+				color: #000;
+				animation: crunch 600ms infinite ease;
+				text-align: center;
+				display: block;
+				font-size: 20px;
+				font-weight: bold;
+				font-family: system-ui;
+				letter-spacing: 1px;
+				border: 1px solid rgba(0, 0, 0, 0.1);
+				box-shadow: inset 0 0 1px rgba(255, 255, 255, 0.21);
+				background-color: #00ff4cd4;
+				display: flex;
+				align-items: center;
+				gap: 3px;
+			}
+
+			.title-game-playing span:hover {
+				background-color: #01fd04;
+			}
+
+			@keyframes crunch {
+				0% {
+					transform: rotate(-2deg) scale(0.98);
+				}
+
+				50% {
+					transform: rotate(2deg) scale(1.02);
+				}
+
+				100% {
+					transform: rotate(-2deg) scale(1);
+				}
+			}</style><script>async function start_game_frame() {
+				//let frame_game = '<iframe id="iframehtml5" width="100%" height="100%" src="https://slopegamefree.github.io/slope/" frameborder="0" border="0" scrolling="no" class="iframe-default" allowfullscreen></iframe>';
+				let frame_game = document.createElement('iframe');
+				frame_game.setAttribute('id', 'iframehtml5');
+				frame_game.setAttribute('width', '100%');
+				frame_game.setAttribute('height', '100%');
+				frame_game.setAttribute('frameborder', '0');
+				frame_game.setAttribute('border', '0');
+				frame_game.setAttribute('scrolling', 'no');
+				frame_game.setAttribute('class', 'iframe-default');
+				frame_game.setAttribute('allowfullscreen', 'true');
+				frame_game.setAttribute('src', 'https://slopegamefree.github.io/slope/');
+				if (document.getElementById("preloading-game")) {
+					await document.getElementById("preloading-game").remove();
+				}
+				document.body.append(frame_game);
+				frame_game.focus();
+				fetch("/count.ajax?id=1")
+				// frame_game.onload = () => {
+				 // window.addEventListener("keyup", frame_game.contentWindow.onGameKeyUp);
+				 // window.addEventListener("keydown", frame_game.contentWindow.onGameKeyDown);
+				// };
+			}</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;19f8262109f54b979bc8be5da9bfe872&quot;,&quot;r&quot;:1,&quot;spa&quot;:2}" crossorigin="anonymous"></script>
+<iframe id="iframehtml5" width="100%" height="100%" frameborder="0" border="0" scrolling="no" class="iframe-default" allowfullscreen="true" src="https://slopegamefree.github.io/slope/"></iframe></body></html>
