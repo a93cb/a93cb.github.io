@@ -31,4 +31,9 @@
     <title>Slope</title>
     <path>/games/slope.html</path>
   </game>
+  <game>
+    <id>retro-bowl</id>
+    <title>Retro Bowl</title>
+    <path>/games/retro-bowl.html</path>
+  </game>
 </library>

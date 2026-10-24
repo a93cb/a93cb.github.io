@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>a93bc</title>
+  <title>a93cb</title>
   <style>
     * {
       box-sizing: border-box;
@@ -168,6 +168,16 @@
       color: #94a3b8;
       grid-column: 1 / -1;
     }
+
+    footer {
+      background-color: #1e293b;
+      border-top: 1px solid #334155;
+      padding: 1rem 2rem;
+      text-align: center;
+      font-size: 0.875rem;
+      color: #94a3b8;
+      margin-top: auto;
+    }
   </style>
 </head>
 
@@ -190,30 +200,23 @@
     <div class="games-grid" id="gamesGrid"></div>
   </main>
 
+  <footer>
+    <p>Disclaimer: We do not take credit for any of the games hosted on this site. All rights belong to their respective creators and owners.</p>
+  </footer>
+
   <script>
     let gamesList = [];
 
-    // Fallback sample data if games.xml is not present locally
-    const fallbackXML = `
-      <library>
-        <game>
-          <id>game-1</id>
-          <title>Sample Game</title>
-          <path>/games/game.html</path>
-          <description>A sample game entry loaded from local fallback configuration.</description>
-        </game>
-      </library>
-    `;
-
     async function fetchLibrary() {
+      const statusBar = document.getElementById('statusBar');
       try {
         const response = await fetch('./games.xml');
         if (!response.ok) throw new Error('Could not load games.xml');
         const xmlText = await response.text();
         parseAndRenderXML(xmlText);
       } catch (error) {
-        console.warn('Backend games.xml not found, using fallback library.', error);
-        parseAndRenderXML(fallbackXML);
+        console.error('Error loading games.xml:', error);
+        statusBar.textContent = 'Failed to load games.xml library.';
       }
     }
 
