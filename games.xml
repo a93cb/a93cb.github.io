@@ -6,11 +6,6 @@
     <path>/games/tag.html</path>
   </game>
   <game>
-    <id>crossy-road-winter</id>
-    <title>Crossy Road Winter</title>
-    <path>/games/crossy-road-winter.html</path>
-  </game>
-  <game>
     <id>rocket-goal</id>
     <title>Rocket Goal</title>
     <path>/games/rocket-goal.html</path>
@@ -20,20 +15,5 @@
     <id>smash-karts</id>
     <title>Smash Karts</title>
     <path>/games/smash-karts.html</path>
-  </game>
-  <game>
-    <id>snow-rider-3d</id>
-    <title>Snow Rider 3D</title>
-    <path>/games/snow-rider-3d.html</path>
-  </game>
-  <game>
-    <id>slope</id>
-    <title>Slope</title>
-    <path>/games/slope.html</path>
-  </game>
-  <game>
-    <id>retro-bowl</id>
-    <title>Retro Bowl</title>
-    <path>/games/retro-bowl.html</path>
   </game>
 </library>
