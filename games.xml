@@ -16,4 +16,9 @@
     <title>Smash Karts</title>
     <path>/games/smash-karts.html</path>
   </game>
+  <game>
+    <id>snow-rider-3d</id>
+    <title>Snow Rider 3D</title>
+    <path>/games/snow-rider-3d.html</path>
+  </game>
 </library>
